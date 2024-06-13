@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build
+
+[project]
+name = "Twister_UCECVAN"
+version = "0.0.1"
+authors = [
+  { name="Alex Ferreira", email="ucecvan@ucl.ac.uk" },
+]
+description = "A package for the computing of per-point conformational free energy surfaces through Density Peaks Advanced Clustering"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "TBD"
+Issues = "TBD"
