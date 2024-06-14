@@ -2,17 +2,8 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.hatch.build.targets.sdist]
-include = [
-  "src/*.py",
-  "/tests",
-]
-exclude = [
-  "*.json",
-]
-
 [project]
-name = "Twister_UCECVAN"
+name = "Twister"
 version = "0.0.1"
 authors = [
   { name="Alex Ferreira", email="ucecvan@ucl.ac.uk" },
